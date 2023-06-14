@@ -1,3 +1,3 @@
 # Simple RSync docker daemon
 
-mount config into /etc/rsync.conf
+mount config into /config/rsync.conf
