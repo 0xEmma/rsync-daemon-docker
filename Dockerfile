@@ -1,4 +1,5 @@
 FROM ubuntu:22.04
-RUN apt install rsync
+RUN apt update 
+RUN apt install -y rsync
 
 CMD rsync --daemon
